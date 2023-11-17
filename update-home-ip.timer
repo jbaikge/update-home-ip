@@ -1,0 +1,8 @@
+[Unit]
+Description=Update Home IP
+
+[Timer]
+OnCalendar=*-*-* *:37:42
+
+[Install]
+WantedBy=timers.target

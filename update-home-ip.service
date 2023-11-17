@@ -1,0 +1,6 @@
+[Unit]
+Description=Update Home IP
+
+[Service]
+EnvironmentFile=/etc/default/update-home-ip
+ExecStart=/home/user/go/bin/update-home-ip -name my.domain.com
